@@ -1,8 +1,6 @@
 # Terraform  – MongoDB on EKS
 
-Terraform native  (`.tftest.hcl`) validate the modular design described in my pdf. No shell or CLI invocations are embedded in Terraform or test files; Kubernetes auth uses the `aws_eks_cluster_auth` data source.
-
-## What is tested
+Terraform native  (`.tftest.hcl`) validate the modular design described in my pdf. Kubernetes auth uses the `aws_eks_cluster_auth` data source.
 
 | Location | What it validates |
 |----------|-------------------|
