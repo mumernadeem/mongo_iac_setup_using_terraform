@@ -1,6 +1,6 @@
-# Terraform tests – MongoDB on EKS (from detail.docx)
+# Terraform  – MongoDB on EKS (from detail.docx)
 
-Terraform native tests (`.tftest.hcl`) validate the modular design described in `k8/detail.docx`. No shell or CLI invocations are embedded in Terraform or test files; Kubernetes auth uses the `aws_eks_cluster_auth` data source.
+Terraform native  (`.tftest.hcl`) validate the modular design described in `k8/detail.docx`. No shell or CLI invocations are embedded in Terraform or test files; Kubernetes auth uses the `aws_eks_cluster_auth` data source.
 
 ## What is tested
 
@@ -18,7 +18,7 @@ Terraform native tests (`.tftest.hcl`) validate the modular design described in 
 
 ## How to run
 
-### Prod composition tests
+### Prod composition 
 
 From repo root:
 
@@ -28,7 +28,7 @@ terraform init
 terraform test
 ```
 
-### Module-level tests
+### Module-level 
 
 From each module directory:
 
@@ -53,7 +53,7 @@ terraform/
     backups/            # S3 backup bucket, versioning, encryption
 ```
 
-## Extending tests
+## Extending 
 
 - Add more `run` blocks in any `.tftest.hcl` to assert on new outputs or resource attributes.
 - Add `.tftest.hcl` under other modules (e.g. `modules/iam`) with `variables` and `assert` blocks.
