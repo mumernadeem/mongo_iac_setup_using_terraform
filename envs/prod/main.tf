@@ -1,4 +1,3 @@
-# Compose all modules for prod (detail.docx §2)
 # Order is implied by dependencies; Terraform resolves automatically.
 
 module "network" {
