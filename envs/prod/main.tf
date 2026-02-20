@@ -38,8 +38,4 @@ module "storage" {
   db_throughput = 125
 }
 
-# Placeholder modules for full composition (detail.docx); add real implementations as needed
-# module "namespaces" { source = "../../modules/namespaces" }
-# module "observability" { source = "../../modules/observability" }
-# module "mongodb" { source = "../../modules/mongodb" }
-# module "apps" { source = "../../modules/apps" }
+
