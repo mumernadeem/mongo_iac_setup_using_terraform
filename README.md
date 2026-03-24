@@ -1,4 +1,16 @@
 # Terraform  – MongoDB on EKS
+Question:
+<p align="left">
+  <a href="https://www.linkedin.com/in/">
+    <img 
+      src="https://github.com/mumernadeem/mongo_iac_setup_using_terraform/blob/main/mongo_k8s%202.png?raw=true" 
+      alt="mumernadeem" 
+      width="50" 
+      height="50"
+      style="border-radius:50%; object-fit:cover;"
+    />
+  </a>
+</p>
 
 Terraform native  (`.tftest.hcl`) validate the modular design described in my pdf. Kubernetes auth uses the `aws_eks_cluster_auth` data source.
 
