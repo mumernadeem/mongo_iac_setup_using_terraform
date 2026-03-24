@@ -7,7 +7,7 @@ Question:
       alt="mumernadeem" 
       width="50" 
       height="50"
-      style="border-radius:50%; object-fit:cover;"
+      style="border-radius:100%; object-fit:cover;"
     />
   </a>
 </p>
