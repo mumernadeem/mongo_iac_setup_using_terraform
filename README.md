@@ -5,9 +5,9 @@ Question:
     <img 
       src="https://github.com/mumernadeem/mongo_iac_setup_using_terraform/blob/main/mongo_k8s%202.png?raw=true" 
       alt="mumernadeem" 
-      width="50" 
-      height="50"
-      style="border-radius:100%; object-fit:cover;"
+      <!-- width="50" 
+      height="50" -->
+      style="border-radius:50%; object-fit:cover;"
     />
   </a>
 </p>
