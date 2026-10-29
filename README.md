@@ -57,3 +57,7 @@ terraform/
 
 - Add more `run` blocks in any `.tftest.hcl` to assert on new outputs or resource attributes.
 - Add `.tftest.hcl` under other modules (e.g. `modules/iam`) with `variables` and `assert` blocks.
+
+
+## Complete Explanation
+https://github.com/mumernadeem/mongo_iac_setup_using_terraform/blob/main/IAC.pdf
